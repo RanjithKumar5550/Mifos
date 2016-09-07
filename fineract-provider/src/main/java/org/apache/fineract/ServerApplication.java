@@ -33,6 +33,7 @@ public class ServerApplication {
 	public static void main(String[] args) throws Exception {
 		ConfigurableApplicationContext ctx = SpringApplication.run(Configuration.class, args);
 		ApplicationExitUtil.waitForKeyPressToCleanlyExit(ctx);
+		System.out.println("hi5");
 		
 	}
 
